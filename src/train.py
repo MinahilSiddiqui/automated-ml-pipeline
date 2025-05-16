@@ -26,4 +26,4 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
 # Save model
-joblib.dump(model, "src/model.pkl")
+joblib.dump(model, "model.pkl")
